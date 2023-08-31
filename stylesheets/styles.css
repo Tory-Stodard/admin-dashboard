@@ -29,7 +29,7 @@ li {
 body {
   display: grid;
   grid-template-columns: minmax(200px, 15%) 1fr;
-  grid-template-rows: minmax(100px, 17%) 1fr;
+  grid-template-rows: 150px 1fr;
   height: 100dvh;
 }
 
@@ -70,7 +70,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 1rem;
+  margin: 0 2rem;
 }
 
 .search,
@@ -119,7 +119,7 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 0 3rem;
+  padding: 0 1.5rem;
 }
 
 .announcements h2,
@@ -130,7 +130,8 @@ main {
 
 .trending-project {
   display: flex;
-  gap: 1rem;
+  align-items: center;
+  gap: 1.25rem;
   margin: 1rem 0;
 }
 
@@ -168,8 +169,8 @@ main {
 /* Trending Section */
 
 .trending-profile-picture {
-  width: 30px;
-  height: 30px;
+  width: 35px;
+  height: 35px;
 }
 
 /* Temporary */
