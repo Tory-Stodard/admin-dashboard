@@ -121,6 +121,13 @@ main {
   height: 70px;
 }
 
+/* Trending Section */
+
+.trending-profile-picture {
+  width: 30px;
+  height: 30px;
+}
+
 /* Temporary */
 
 .sidebar,
@@ -132,7 +139,8 @@ main,
   border: 1px solid;
 }
 
-.announcement-card {
+.announcement-card,
+.trending-card {
   background-color: lightgray;
   padding: 1rem;
   border-radius: 12px;
