@@ -50,6 +50,11 @@ body {
   justify-self: center;
 }
 
+.sidebar-title,
+.main-nav {
+  margin-bottom: 2rem;
+}
+
 /* Temporary */
 
 .sidebar,
