@@ -4,6 +4,18 @@
   box-sizing: border-box;
 }
 
+/* Utility Styles */
+
+.sidebar-title-img {
+  width: 50px;
+  height: 50px;
+}
+
+.nav-icon {
+  width: 25px;
+  height: 25px;
+}
+
 /* Layout */
 
 body {
