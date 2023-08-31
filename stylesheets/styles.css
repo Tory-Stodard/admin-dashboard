@@ -81,6 +81,15 @@ body {
   gap: 0.5rem;
 }
 
+main {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.my-projects {
+  grid-row: 1/3;
+}
+
 /* Header Section */
 
 .search-icon,
@@ -103,6 +112,9 @@ body {
 
 .sidebar,
 .page-header,
-main {
+main,
+.my-projects,
+.announcements,
+.trending {
   border: 1px solid;
 }
