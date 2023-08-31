@@ -84,10 +84,23 @@ body {
 main {
   display: grid;
   grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr 1fr;
 }
 
 .my-projects {
   grid-row: 1/3;
+}
+
+.announcements {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 3rem;
+}
+
+.announcements h2 {
+  align-self: flex-start;
 }
 
 /* Header Section */
@@ -117,4 +130,10 @@ main,
 .announcements,
 .trending {
   border: 1px solid;
+}
+
+.announcement-card {
+  background-color: lightgray;
+  padding: 1rem;
+  border-radius: 12px;
 }
