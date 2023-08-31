@@ -175,14 +175,14 @@ main {
 
 /* Temporary */
 
-.sidebar,
+/* .sidebar,
 .page-header,
 main,
 .my-projects,
 .announcements,
 .trending {
   border: 1px solid;
-}
+} */
 
 .announcement-card,
 .trending-card {
