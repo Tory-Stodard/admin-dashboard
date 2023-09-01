@@ -55,18 +55,12 @@ li {
   color: var(--light-text-color);
 }
 
-.sidebar-title-img {
-  width: 50px;
-  height: 50px;
-}
-
 .nav-icon {
   width: 25px;
   height: 25px;
 }
 
-.announcement-card,
-.trending-card {
+.card {
   background-color: var(--white-color);
   padding: 1rem;
   border-radius: 12px;
@@ -202,6 +196,11 @@ main {
 
 .sidebar-title {
   font-size: 1.5rem;
+}
+
+.sidebar-title-img {
+  width: 50px;
+  height: 50px;
 }
 
 .sidebar a {
