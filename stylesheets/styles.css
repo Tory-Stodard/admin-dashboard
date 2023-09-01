@@ -358,3 +358,74 @@ main {
     display: none;
   }
 }
+
+@media (max-width: 800px) {
+  body {
+    grid-template-columns: 1fr;
+  }
+
+  .sidebar {
+    grid-row: 3;
+  }
+
+  .sidebar-title,
+  .main-nav li,
+  .secondary-nav li {
+    display: flex;
+    justify-content: center;
+    gap: 0.25rem;
+  }
+
+  .secondary-nav {
+    margin-bottom: 1rem;
+  }
+
+  .page-header {
+    padding: 1rem 0;
+  }
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 1.25rem;
+  }
+
+  .search input {
+    width: 250px;
+  }
+
+  .my-projects {
+    display: block;
+  }
+
+  .my-projects h2 {
+    margin-left: 1rem;
+    margin-top: 1.5rem;
+  }
+
+  .project-card {
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+  }
+}
+
+@media (max-width: 275px) {
+  h1 {
+    font-size: 1.1rem;
+  }
+
+  .search input {
+    width: 150px;
+  }
+
+  .profile-picture-large {
+    width: 40px;
+    height: 40px;
+  }
+
+  .header-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+}
