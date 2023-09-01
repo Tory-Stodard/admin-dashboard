@@ -1,3 +1,13 @@
+/* Variables */
+
+:root {
+  --main-color: #059669;
+  --secondary-color: #86efac;
+  --background-color: rgb(236, 233, 233);
+  --dark-text-color: rgb(11, 11, 11);
+  --light-text-color: rgb(50, 49, 49);
+}
+
 /* Global Styles */
 
 * {
