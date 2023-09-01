@@ -30,6 +30,10 @@ li {
 
 /* Utility Styles */
 
+.extra-bold {
+  font-weight: 900;
+}
+
 .light-text-color {
   color: var(--light-text-color);
 }
