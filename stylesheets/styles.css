@@ -327,36 +327,3 @@ main {
 }
 
 /* Media Queries */
-
-@media (max-width: 1200px) {
-  .search input {
-    width: 300px;
-  }
-
-  main {
-    grid-template-columns: 1fr;
-  }
-
-  .announcements,
-  .trending {
-    margin: 1.25rem 0;
-  }
-}
-
-@media (max-width: 925px) {
-  body {
-    grid-template-columns: 1fr;
-  }
-
-  .sidebar {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
-    padding: 1rem 0;
-  }
-
-  .main-nav {
-    margin-bottom: 0;
-  }
-}
