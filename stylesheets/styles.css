@@ -1,3 +1,7 @@
+/* Font Import */
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
 /* Variables */
 
 :root {
@@ -18,6 +22,7 @@
 body {
   background-color: var(--background-color);
   color: var(--dark-text-color);
+  font-family: 'Raleway', sans-serif;
 }
 
 h1 {
@@ -68,8 +73,9 @@ li {
   width: 100%;
 }
 
-/* Layout */
+/* Layout Styles */
 
+/* Page Layout */
 body {
   display: grid;
   grid-template-columns: minmax(200px, 15%) 1fr;
@@ -81,6 +87,7 @@ body {
   grid-row: 1/3;
 }
 
+/* Sidebar Layout */
 .sidebar-title {
   margin-top: 0.5rem;
 }
@@ -103,6 +110,7 @@ body {
   justify-self: center;
 }
 
+/* Page Header Layout */
 .page-header {
   display: flex;
   flex-direction: column;
@@ -125,6 +133,7 @@ body {
   gap: 0.5rem;
 }
 
+/* Main Section Layout */
 main {
   display: grid;
   grid-template-columns: 2fr 1fr;
