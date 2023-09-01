@@ -199,6 +199,7 @@ main {
 
 .page-header {
   background-color: var(--white-color);
+  box-shadow: 10px 10px 8px #8888886f;
 }
 
 .search input {
@@ -251,6 +252,7 @@ main {
   border-left: 12px solid var(--secondary-color);
   border-radius: 12px;
   padding: 2rem;
+  box-shadow: 10px 10px 8px #8888886f;
 }
 
 .project-button {
@@ -258,7 +260,17 @@ main {
   height: 20px;
 }
 
+/* Announcement Section */
+
+.announcement-card {
+  box-shadow: 10px 10px 8px #8888886f;
+}
+
 /* Trending Section */
+
+.trending-card {
+  box-shadow: 10px 10px 8px #8888886f;
+}
 
 .trending-profile-picture-bg {
   background-color: var(--secondary-color);
